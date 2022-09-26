@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Ejercicio1 = () => {
+
+const TituloPrincipal = () => {
     return (
         <div>
             <h1>Hello world!</h1>
@@ -8,4 +9,4 @@ const Ejercicio1 = () => {
     );
 };
 
-export default Ejercicio1;
+export default TituloPrincipal;

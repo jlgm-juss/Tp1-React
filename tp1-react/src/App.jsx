@@ -1,9 +1,14 @@
-import Ejercicio1 from "./components/Ejercicio1"
+import TituloPrincipal from "./components/TituloPrincipal"
+import TituloSecundario from "./components/TituloSecundario";
 
 function App() {
+
+const myFriend = 'Hello my friend!';
+
   return (
     <div>
-      <Ejercicio1></Ejercicio1>
+      <TituloPrincipal></TituloPrincipal>
+      <TituloSecundario mod={myFriend} estado={true}/>
     </div>
   );
 }

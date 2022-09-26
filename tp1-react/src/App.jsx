@@ -1,5 +1,6 @@
 import TituloPrincipal from "./components/TituloPrincipal"
 import TituloSecundario from "./components/TituloSecundario";
+import TituloTerciario from "./components/TituloTerciario";
 
 function App() {
 
@@ -9,6 +10,7 @@ const myFriend = 'Hello my friend!';
     <div>
       <TituloPrincipal></TituloPrincipal>
       <TituloSecundario mod={myFriend} estado={true}/>
+      <TituloTerciario/>
     </div>
   );
 }
